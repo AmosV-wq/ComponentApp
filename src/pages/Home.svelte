@@ -14,6 +14,9 @@
         <Link to="cards">
             <div class="card">Cards</div>
         </Link>
+        <Link to="loader">
+            <div class="card">Loaders</div>
+        </Link>
     </div>
 </div>
 

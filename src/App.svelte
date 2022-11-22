@@ -4,6 +4,7 @@
   import TopBars from "./pages/TopBars.svelte";
   import Buttons from "./pages/Buttons.svelte";
   import Cards from "./pages/Cards.svelte";
+  import Loader from "./pages/Loaders.svelte";
 </script>
 
 <main>
@@ -19,6 +20,9 @@
     </Route>
     <Route path="cards">
       <Cards />
+    </Route>
+    <Route path="loader">
+      <Loader />
     </Route>
   </Router>
 </main>
