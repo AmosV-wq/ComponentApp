@@ -17,6 +17,12 @@
         <Link to="loader">
             <div class="card">Loaders</div>
         </Link>
+        <Link to="split">
+            <div class="card">Split</div>
+        </Link>
+        <Link to="paralax">
+            <div class="card">Paralax</div>
+        </Link>
     </div>
 </div>
 
@@ -41,7 +47,11 @@
     .cardContainer {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 2rem;
+        margin: 2em;
+        justify-content: center;
+        flex-basis: 25;
     }
 
     .card {

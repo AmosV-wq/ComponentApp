@@ -5,6 +5,8 @@
   import Buttons from "./pages/Buttons.svelte";
   import Cards from "./pages/Cards.svelte";
   import Loader from "./pages/Loaders.svelte";
+  import Split from "./pages/Split.svelte";
+  import Paralax from "./pages/Paralax.svelte";
 </script>
 
 <main>
@@ -23,6 +25,12 @@
     </Route>
     <Route path="loader">
       <Loader />
+    </Route>
+    <Route path="split">
+      <Split />
+    </Route>
+    <Route path="paralax">
+      <Paralax />
     </Route>
   </Router>
 </main>
